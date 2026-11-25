@@ -333,3 +333,33 @@ body {
         font-size: 2rem;
     }
 }
+/* Estilos para los botones del catálogo */
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn-primary i {
+    margin-right: 8px;
+}
+
+.btn-secondary {
+    display: inline-block;
+    background-color: rgba(53, 22, 56, 0.55);
+    color: var(--white);
+    border: 2px solid var(--white);
+    padding: 10px 26px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: var(--white);
+    color: var(--primary-color);
+    transform: translateY(-2px);
+}
